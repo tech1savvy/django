@@ -14,3 +14,10 @@ Here are the key URLs for this Django project:
 ## Admin Interface
 - **Django Admin:** `/admin/`
 
+## Workflow
+
+1.  **Register:** New users should first register for an account by visiting the [Registration Page](/exam/register/).
+2.  **Login:** After registering (or if you already have an account), log in using the [Login Page](/accounts/login/).
+3.  **Provide Feedback:** Once logged in, you can access the [Feedback Page](/exam/feedback/) to submit your feedback.
+4.  **Logout:** To end your session, visit the [Logout Page](/accounts/logout/).
+
