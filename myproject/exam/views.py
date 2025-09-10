@@ -18,3 +18,6 @@ def feedback_view(request):
     else:
         form = FeedbackForm()
     return render(request, 'feedback.html', {'form': form})
+
+def thanks_view(request):
+    return render(request, 'thanks.html')
