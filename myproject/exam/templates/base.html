@@ -4,6 +4,13 @@
     <title>{% block title %}My Django App{% endblock %}</title>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="{% url 'login' %}">Login</a></li>
+            <li><a href="{% url 'register' %}">Register</a></li>
+            <li><a href="{% url 'feedback' %}">Feedback</a></li>
+        </ul>
+    </nav>
     <div id="content">
         {% block content %}
         {% endblock %}
